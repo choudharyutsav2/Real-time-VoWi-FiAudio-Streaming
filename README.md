@@ -1,15 +1,43 @@
-# Real-time VoWi-Fi Audio Streaming using Socket Programming
+## Real-time VoWi-Fi Audio Streaming
+Overview
+This project is a real-time voice over Wi-Fi (VoWi-Fi) audio streaming application developed using Java and Eclipse. The application focuses on optimizing audio quality, reducing latency, and ensuring seamless communication experiences between the server and client.
 
-Developed a robust solution for real-time voice over Wi-Fi audio streaming using socket programming. This project focused on optimizing audio quality, reducing latency, and ensuring seamless communication experiences between the server and client. Key responsibilities included:
+# Features
+Real-time audio streaming over Wi-Fi.
+Low-latency communication.
+High-quality audio transmission.
+Robust server-client communication mechanisms.
+Reliable and stable streaming performance.
+# Tech Stack
+Programming Language: Java
+IDE: Eclipse
+Networking: Socket Programming
+## Getting Started
+*Prerequisites
+Java Development Kit (JDK)
+Eclipse IDE
+Wi-Fi network
 
-1)Designing and implementing a low-latency audio streaming protocol.
-2)Ensuring high-quality audio transmission over Wi-Fi networks.
-3)Developing efficient server-client communication mechanisms.
-4)Conducting rigorous testing to ensure reliability and performance.
-5)Troubleshooting and resolving network-related issues to maintain stream stability.
+# Installation
+1)Clone the repository:
+git clone https://github.com/choudharyutsav2/Real-time-VoWi-Fi-Audio-Streaming.git
+2)Open the project in Eclipse IDE.
+3)Ensure that JDK is set up in your development environment.
 
-This project showcases my expertise in network programming, real-time systems, and audio processing, contributing to my skill set in developing high-performance, scalable communication solutions.
-# Tech Stack:
-Java
-Eclipse
-Socket Programming
+# Usage
+Server Setup:
+1)Run the server application on the machine designated as the server.
+java Server.java
+2)Client Setup:
+Run the client application on the client machine.
+java Client.java
+3)Ensure both the server and client machines are connected to the same Wi-Fi network.
+4)The client will connect to the server and start streaming audio in real-time.
+
+# Project Structure
+-  src/
+   -Server.java: Handles incoming audio data from the client and processes it.
+   -Client.java: Captures audio from the microphone and streams it to the server.
+
+# Contributing
+   -Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
